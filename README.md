@@ -13,6 +13,18 @@ exec-wrappers is a command line tool to create wrappers around executable
 files that need to be executed on a particular environment (e.g. conda, virtualenv, schroot)
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/exec-wrappers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/exec-wrappers-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/exec-wrappers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/exec-wrappers-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/exec-wrappers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/exec-wrappers-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/exec-wrappers/badges/version.svg)](https://anaconda.org/conda-forge/exec-wrappers)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/exec-wrappers/badges/downloads.svg)](https://anaconda.org/conda-forge/exec-wrappers)
+
 Installing exec-wrappers
 ========================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `exec-wrappers` available on your 
 ```
 conda search exec-wrappers --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/exec-wrappers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/exec-wrappers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/exec-wrappers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/exec-wrappers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/exec-wrappers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/exec-wrappers-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/exec-wrappers/badges/version.svg)](https://anaconda.org/conda-forge/exec-wrappers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/exec-wrappers/badges/downloads.svg)](https://anaconda.org/conda-forge/exec-wrappers)
 
 
 Updating exec-wrappers-feedstock

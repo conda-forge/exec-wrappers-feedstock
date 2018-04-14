@@ -1,5 +1,5 @@
-{% set version = "1.1.0" %}
-{% set sha256 = "5ac4d3f09f9976904b42421176e958e7aa5a64195de6df369a64e7b206c6463a" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "287390ee379ed062c0710dc82476c313a6da4e8ffd1e82a5947ff6aac2c91832" %}
 
 package:
   name: exec-wrappers

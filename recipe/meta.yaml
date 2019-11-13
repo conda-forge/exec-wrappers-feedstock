@@ -1,5 +1,5 @@
-{% set version = "1.1.3" %}
-{% set sha256 = "1e38f8843797de382f19acb03a14fba1f6015f47d781555ca8e1b4b7b8c5ba3f" %}
+{% set version = "1.1.4" %}
+{% set sha256 = "d9c0aedec7cf14c4fc5d44deaa48ae35dfa8c5bc8b4a1bb58c4a7387f071fdb0" %}
 
 package:
   name: exec-wrappers
@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/gqmelo/exec-wrappers
   license: MIT
+  license_file: LICENSE
   summary: 'command line tool to create wrappers around executables'
 
   description: |

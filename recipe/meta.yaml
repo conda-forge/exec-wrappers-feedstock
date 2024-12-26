@@ -7,24 +7,26 @@ package:
 
 source:
   fn: exec-wrappers-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/e/exec-wrappers/exec-wrappers-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/e/exec-wrappers/exec-wrappers-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - create-wrappers = exec_wrappers.create_wrappers:main
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - setuptools
   run:
-    - python
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - exec_wrappers
   commands:
